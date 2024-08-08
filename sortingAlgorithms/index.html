@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Number Sorter</title>
+  </head>
+  <body>
+    <main>
+      <h1>Number Sorter</h1>
+      <form id="form" class="form">
+        <button id="randomizeButton">Randomize all numbers</button>
+        <h2>Input:</h2>
+        <fieldset id="selectorContainer">
+          <!-- filled dinamically with JS -->
+        </fieldset>
+        <div id="sortingButtons">
+          <!-- filled dinamically with JS -->
+        </div>
+      </form>
+      <div class="output-container">
+        <h2>Output:</h2>
+        <div id="outputContainer" class="output-array">
+          <!-- filled dinamically with JS -->       
+        </div>
+      </div>
+      <div id="timeResultDiv">
+        <h2>Time performance of the algorithm: </h2>
+        <p id="timeResult"></p>
+      </div>
+
+      <button class="fixed-button" id="goToSortingBtn">Go to Sorting</button>
+
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
